@@ -36,6 +36,20 @@
 # define SML_SGR_WHITE   "\e[37m"
 
 
+/*!
+ * \def SML_ARGC
+ * \brief argument place holder
+ *
+ *  Argument object of bind () function system such as Sml::Notification class
+ *  The macro's argument "x" is expanded to std::placeholder::_ x.
+ *  "x" must be a number from 1 to the number of arguments in sequential.
+ *  e.g. if there are two arguments x takes 1 and 2. Therefore, the specified macro is SML_ARGC (1), SML_ARGC (2)
+ *  - SML_ARGC(1) => std::placeholders::_1
+ *  - SML_ARGC(2) => std::placeholders::_2
+ *  - SML_ARGC(N) => std::placeholders::_N (N is under 10 cause \see https://cpprefjp.github.io/reference/functional/placeholders.html#備考)
+ */
+# define SML_ARGC(x) std::placeholders::_##x
+
 # define SML_UNUSED_ARG(x) static_cast<void>(x)
 
 

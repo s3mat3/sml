@@ -1,13 +1,13 @@
 /**
- * @file unit_test.cpp
+ * \file unit_test.cpp
  *
- * @copyright © 2023 s3mat3 
+ * \copyright © 2024 s3mat3 
  *
- * This code is licensed under the MIT License, see the LICENSE.txt file for details
+ * This code is licensed under the MIT License, see the LICENSE file for details
  *
- * @brief Unit test for MeasureTime class
+ * \brief Unit test for MeasureTime class
  *
- * @author s3mat3
+ * \author s3mat3
  */
 
 #include <thread>

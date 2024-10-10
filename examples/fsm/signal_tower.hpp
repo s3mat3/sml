@@ -1,12 +1,12 @@
 /**
- * @file signal_tower.hpp
+ * \file signal_tower.hpp
  *
- * @copyright © 2024 s3mat3
- * This code is licensed under the MIT License, see the LICENSE.txt file for details
+ * \copyright © 2024 s3mat3
+ * This code is licensed under the MIT License, see the LICENSE file for details
  *
- * @brief
+ * \brief
  *
- * @author s3mat3
+ * \author s3mat3
  */
 
 #pragma once

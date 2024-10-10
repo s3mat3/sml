@@ -2,7 +2,7 @@
  * \file fsm.hpp
  *
  * \copyright © 2024 s3mat3
- * This code is licensed under the MIT License, see the LICENSE.txt file for details
+ * This code is licensed under the MIT License, see the LICENSE file for details
  *
  * \brief Tried to imitate UML's state machine diagram. Nesting (composite state) is not considered
  *
