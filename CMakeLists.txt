@@ -17,10 +17,10 @@ project(
   LANGUAGES CXX
   )
 
-option(SML_BUILD_TEST "Build test" ON)
+option(SML_BUILD_TEST "Build test" OFF)
 option(SML_BUILD_BENCHMARK "Build benchmark test (with SML_BUILD_TEST)" OFF)
 option(SML_BUILD_EXAMPLES "Build examples" ON)
-option(SML_BUILD_DOC "Build documents" ON)
+option(SML_BUILD_DOC "Build documents" OFF)
 
 set(SML_DEVELOP_TOOLS_BASE "/opt/tools")
 if (SML_BUILD_TEST)
